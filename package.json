@@ -1,0 +1,17 @@
+{
+  "name": "hyperloglog-cardinality-index",
+  "version": "1.0.0",
+  "description": "确定性的 HyperLogLog 基数索引：命名空间稳定哈希、分区增量更新、二进制序列化与无损合并",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
